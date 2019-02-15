@@ -1,4 +1,4 @@
-class Ocamlci < Formula
+class OcamlCi < Formula
   desc "The OCaml CI environment" 
   homepage "https://ocaml.org"
 
