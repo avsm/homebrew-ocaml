@@ -1,4 +1,4 @@
-class Srcsetter < Formula
+class Unpac < Formula
   desc "Monorepo manager for OCaml/OxCaml"
   homepage "https://github.com/avsm/unpac"
   url "https://github.com/avsm/unpac.git", branch: "project/unpac"
