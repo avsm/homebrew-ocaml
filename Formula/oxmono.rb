@@ -15,7 +15,7 @@ class Oxmono < Formula
 
   def install
     system "./scripts/setup.sh"
-    system "dune", "build", "--profile=release", "@install"
+    system "opam", "exec", "--", "dune", "build", "--profile=release", "@install"
     system "ls", "-la", "_build/install/default/bin/"
     bin.install Dir["_build/install/default/bin/*"]
   end
