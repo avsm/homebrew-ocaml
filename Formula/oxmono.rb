@@ -15,6 +15,6 @@ class Oxmono < Formula
 
   def install
     system "./scripts/setup.sh"
-    bin.install "_build/install/default/bin/arod" => "arod"
+    bin.install Dir["_build/install/default/bin/*"]
   end
 end
