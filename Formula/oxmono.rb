@@ -10,6 +10,8 @@ class Oxmono < Formula
   depends_on "gpatch"
   depends_on "ocaml"
   depends_on "opam"
+  depends_on "autoconf"
+  depends_on "zstd"
 
   def install
     system "./scripts/setup.sh"
