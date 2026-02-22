@@ -5,12 +5,12 @@ class Oxmono < Formula
   version "0.0.1"
   license "ISC"
 
+  depends_on "autoconf"
   depends_on "dune"
   depends_on "gmp"
   depends_on "gpatch"
   depends_on "ocaml"
   depends_on "opam"
-  depends_on "autoconf"
   depends_on "zstd"
 
   def install
