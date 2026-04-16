@@ -1,5 +1,5 @@
 class Oi < Formula
-  desc "Oi is a stateless OCaml installer"
+  desc "A stateless OCaml installer"
   homepage "https://github.com/avsm/oi/"
   url "https://github.com/avsm/oi.git", branch: "main"
   version "0.0.1"
