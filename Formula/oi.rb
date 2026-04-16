@@ -7,9 +7,9 @@ class Oi < Formula
 
   depends_on "gpatch"
   depends_on "opam"
+  depends_on "pkgconf"
   depends_on "sqlite"
   depends_on "zstd"
-  depends_on "pkgconf"
 
   def install
     system "bash", "./.opambuild.sh"
