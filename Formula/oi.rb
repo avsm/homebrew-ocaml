@@ -2,7 +2,7 @@ class Oi < Formula
   desc "Stateless OCaml installer and runner"
   homepage "https://github.com/avsm/oi/"
   url "https://github.com/avsm/oi.git", branch: "main"
-  version "0.1.3"
+  version "0.1.4"
   license "ISC"
 
   depends_on "gpatch"
