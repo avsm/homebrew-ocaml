@@ -1,5 +1,5 @@
 class Oi < Formula
-  desc "Stateless OCaml installer and runner"
+  desc "Stateless OCaml installer and development manager"
   homepage "https://github.com/avsm/oi/"
   url "https://github.com/avsm/oi.git", branch: "main"
   version "2.0.0"
