@@ -1,7 +1,7 @@
 class Oi < Formula
   desc "Stateless OCaml installer and development manager"
   homepage "https://github.com/avsm/oi/"
-  url "https://github.com/avsm/oi.git", tag: "0.8.0"
+  url "https://github.com/avsm/oi.git", tag: "0.8.1"
   license "ISC"
 
   depends_on "gpatch"
