@@ -4,12 +4,12 @@ class Oi < Formula
   url "https://github.com/avsm/oi.git", tag: "0.9.2"
   license "ISC"
 
+  depends_on "gmp"
   depends_on "gpatch"
   depends_on "opam"
   depends_on "pkgconf"
   depends_on "sqlite"
   depends_on "zstd"
-  depends_on "gmp"
 
   def install
     system "bash", "./.opambuild.sh"
